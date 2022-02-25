@@ -1,21 +1,21 @@
 pipeline {
-  agent any
+  agent none
   stages {
     stage('build') {
       steps {
-        echo 'build done'
+        echo 'build done1'
       }
     }
 
     stage('upload') {
       steps {
-        echo 'upload done'
+        echo 'upload done2'
       }
     }
 
     stage('deploy') {
       steps {
-        echo 'deploy done'
+        echo 'deploy done3'
       }
     }
 
